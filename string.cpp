@@ -41,7 +41,7 @@ void repeat(char s[])
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "Введите свой текст" << endl;
+	cout << "Введите свой текст(только на английском)" << endl;
 	char s[256];
 	cin.getline(s, 256);
 	count(s);
